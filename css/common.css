@@ -1,20 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
-  --button_color: #ff900e;
-  --heading_text_color: #131313;
-  --paragraph_text_color: #727272;
-  --navbar_number_text_color: #424242;
-  --heading_text_size: 2.8rem;
-  --paragraph_text-size: 1rem;
-  --heading_font_weight: 700;
-  --number_font-weight: 600;
+  --font_weight_bold: 700;
+  --font_weight_semibold: 600;
+  --font_weight_medium: 500;
+  --primary_color: #3a3a3a;
+  --button-color: #e02c6d;
 }
 * {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 ul,
 li,
@@ -33,6 +30,13 @@ img {
   vertical-align: middle;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1320px;
   margin: 0 auto;
+}
+button {
+  padding: 10px 24px;
+  border: none;
+  background-color: var(--button-color);
+  font-weight: var(--font_weight_bold);
+  color: #ffffff;
 }

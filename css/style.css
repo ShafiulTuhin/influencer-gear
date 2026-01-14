@@ -1,1 +1,63 @@
 @import url("./common.css");
+/* =====Navbar CSS===== */
+nav {
+  padding: 87px 0 72px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h3 {
+  color: var(--primary_color);
+  font-weight: var(--font_weight_bold);
+  font-size: 1.5rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+ul li a {
+  color: var(--primary_color);
+}
+.hideNav {
+  display: none;
+}
+/*======Banner part CSS======  */
+.bannerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bannerTitle {
+  width: 582px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.bannerTitle h1 {
+  line-height: 4rem;
+  color: var(--primary_color);
+  font-weight: var(--font_weight_bold);
+  font-size: 3.25rem;
+}
+.bannerTitle {
+  color: var(--primary_color);
+  font-weight: var(--font_weight_semibold);
+}
+.bannerImage img {
+  max-width: 440px;
+  padding: 20px 30px;
+}
+.mainCamera {
+  position: absolute;
+  transform: translate(-100%, 0%);
+}
+.btn-modify {
+  width: 196px;
+  border-radius: 41px;
+}
+
+.hidden {
+  display: none;
+}

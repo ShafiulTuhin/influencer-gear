@@ -1,8 +1,47 @@
 @import url("./common.css");
 /* ====Small devices===== */
 @media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  /* Nav part */
+  .responsive-Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .responsive-Nav h3 {
+    font-size: 1.25rem;
+  }
+  .hide {
+    display: none;
+  }
+  .hideNav {
+    display: contents;
+  }
+  /* Banner Part */
+  .bannerWrapper {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .bannerTitle {
+    width: 100%;
+    text-align: center;
+  }
+  .btn-modify {
+    margin: 0 auto;
+  }
 }
 
 /* =====Extra small devices===== */
 @media (max-width: 576px) {
+  /* Banner Part */
+  .bannerImage img {
+    max-width: 100%;
+  }
+  .bannerTitle h1 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
 }
