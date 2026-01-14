@@ -19,6 +19,8 @@ nav ul {
 }
 ul li a {
   color: var(--primary_color);
+  font-size: 1rem;
+  font-weight: var(--font_weight_semibold);
 }
 .hideNav {
   display: none;
@@ -56,6 +58,16 @@ ul li a {
 .btn-modify {
   width: 196px;
   border-radius: 41px;
+}
+/* ====== CLient part css====== */
+#clientPart {
+  padding: 6.25rem 0;
+}
+.clientLogo {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .hidden {

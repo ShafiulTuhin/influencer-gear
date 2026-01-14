@@ -32,6 +32,16 @@
   .btn-modify {
     margin: 0 auto;
   }
+  /* Client part */
+  #clientPart {
+    padding: 3.25rem 0;
+  }
+  .clientLogo {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    padding-left: 100px;
+  }
 }
 
 /* =====Extra small devices===== */
@@ -43,5 +53,9 @@
   .bannerTitle h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
+  }
+  /* Clinet part css */
+  .clientLogo {
+    padding-left: 75px;
   }
 }
