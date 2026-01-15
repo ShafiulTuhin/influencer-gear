@@ -10,6 +10,7 @@ nav h3 {
   color: var(--primary_color);
   font-weight: var(--font_weight_bold);
   font-size: 1.5rem;
+  cursor: pointer;
 }
 nav ul {
   display: flex;
@@ -21,6 +22,9 @@ ul li a {
   color: var(--primary_color);
   font-size: 1rem;
   font-weight: var(--font_weight_semibold);
+}
+.menuIcons i {
+  cursor: pointer;
 }
 .hideNav {
   display: none;
@@ -68,6 +72,9 @@ ul li a {
   grid-template-columns: repeat(7, 1fr);
   max-width: 1200px;
   margin: 0 auto;
+}
+.clientLogo img {
+  cursor: pointer;
 }
 /* ====== Popular CSS====== */
 #popular {
@@ -187,6 +194,9 @@ footer {
 .fotterItems p {
   color: #d9dbe1;
   line-height: 1.5rem;
+  font-size: 14px;
+  font-family: var(--font-manrope);
+  font-weight: var(--font_weight_bold);
 }
 .socialIcons {
   display: flex;
@@ -198,9 +208,10 @@ footer {
   color: #ffffff;
 }
 .socialIcons i {
-  background-color: #5e6366;
+  /* background-color: #5e6366;
   padding: 6px 9px 6px 4px;
-  border-radius: 50%;
+  border-radius: 50%; */
   font-size: 1.25rem;
   color: #ffffff;
+  cursor: pointer;
 }
