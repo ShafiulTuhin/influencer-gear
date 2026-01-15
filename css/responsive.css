@@ -37,10 +37,20 @@
     padding: 3.25rem 0;
   }
   .clientLogo {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     max-width: 100%;
-    padding-left: 100px;
+  }
+  /* Popular part */
+  .popularItems {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .itemsDetails {
+    width: 100%;
+  }
+  .seeMore {
+    width: 100%;
   }
 }
 
@@ -56,6 +66,5 @@
   }
   /* Clinet part css */
   .clientLogo {
-    padding-left: 75px;
   }
 }
