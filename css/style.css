@@ -194,7 +194,7 @@ footer {
 .fotterItems p {
   color: #d9dbe1;
   line-height: 1.5rem;
-  font-size: 14px;
+  font-size: 1rem;
   font-family: var(--font-manrope);
   font-weight: var(--font_weight_bold);
 }
