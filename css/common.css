@@ -41,4 +41,11 @@ button {
   background-color: var(--button-color);
   font-weight: var(--font_weight_bold);
   color: #ffffff;
+  cursor: pointer;
+  transition: all linear 0.4s;
+}
+button:hover {
+  background-color: transparent;
+  color: #3a3a3a;
+  border: 1px solid var(--button-color);
 }

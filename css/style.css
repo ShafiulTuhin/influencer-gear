@@ -71,7 +71,7 @@ ul li a {
 }
 /* ====== Popular CSS====== */
 #popular {
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
 }
 .popularTitle {
   text-align: center;
@@ -96,6 +96,7 @@ ul li a {
   gap: 1rem;
   padding: 17px 15px;
   box-shadow: 0 0px 40px rgba(0, 0, 0, 0.158);
+  cursor: pointer;
 }
 .itemsDetails h3 {
   font-size: 1.75rem;
@@ -140,6 +141,66 @@ ul li a {
   color: var(--button-color);
   cursor: pointer;
 }
-.hidden {
-  display: none;
+/* ======Featue part css====== */
+#featurePart {
+  padding-bottom: 6.25rem;
+}
+.featureWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featureRight {
+  width: 710px;
+}
+.featureRight h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #0a0826;
+  font-weight: var(--font_weight_bold);
+  line-height: 60px;
+}
+.featureRight p {
+  color: #6c6c6c;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: var(--font_weight_bold);
+  width: 501px;
+}
+/* ======Footer part CSS====== */
+footer {
+  background-color: #0a0826;
+}
+.fotterItems {
+  padding: 50px 0;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.fotterItems h3 {
+  color: #ffffff;
+  margin-bottom: 3px;
+  font-weight: var(--font_weight_bold);
+  font-size: 24px;
+}
+.fotterItems p {
+  color: #d9dbe1;
+  line-height: 1.5rem;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 17px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.socialIcons i {
+  background-color: #5e6366;
+  padding: 6px 9px 6px 4px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  color: #ffffff;
 }
